@@ -1,11 +1,20 @@
 /*IMPORTS*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,body{
+    height: 896px;
+    width: 414px;
+    margin:0px;
+}
 /*ELEMENTOS H*/
 h1, h2, h3, h4, h5, h6, p, button{
     font-family: "Inter"}
 /*ELEMENTOS DIV*/
 .Hero{
-    margin-top: 70px;
+    padding-top: 0px;
+}
+#contenido{
+    padding-top: 118px;
 }
 /*ELEMENTOS P*/
 /*ELEMENTOS SECTION*/
@@ -43,9 +52,10 @@ h1, h2, h3, h4, h5, h6, p, button{
 }
 #tituloPrincipal{
     color: white;
-    font-size: 40px;
+    font-size: 42px;
     height: 102px;
-    margin: 118px auto 0;
+    margin: 0;
+    font-weight: 500;
 }
 #subtitulo{
     color: white;
@@ -53,6 +63,7 @@ h1, h2, h3, h4, h5, h6, p, button{
     height: 54px;
     margin: 0 auto;
     margin-top: 20px;
+    font-weight: 500;
 }
 .CTA-Hero{
     background-color:#558914;
