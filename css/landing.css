@@ -1,0 +1,88 @@
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*ELEMENTOS H*/
+h1, h2, h3, h4, h5, h6, p, button{
+    font-family: "Inter"}
+/*ELEMENTOS DIV*/
+.Hero{
+    border: red 7px solid;
+    margin-top: 70px;
+}
+/*ELEMENTOS P*/
+/*ELEMENTOS SECTION*/
+/*ELEMENTOS ID*/
+#div-CTA{
+    border: orange 7px solid;
+    margin-top: 20px;
+}
+#espacio-descubrir{
+    border: yellow 7px solid;
+    margin-top: 391px;
+}
+
+/*body{
+    border: 10px solid green;
+}
+.Hero{
+
+    border: 10px solid red;
+    text-align: center;
+    background-image: url("../img/backgroundHero.jpg");
+    background-position: center;
+}
+
+#descubreMasHero{
+    alignment: right;
+}*/
+/*css copiado*/
+
+#pag-principal{
+    height:820px;
+    width: 414px;
+    background-image:url("../img/backgroundHero.jpg");
+    background-position: 40%;
+    background-size: 1470px;
+    text-align: center;
+}
+#tituloPrincipal{
+    color: white;
+    font-size: 40px;
+    height: 102px;
+    margin: 0 auto;
+    margin-top: 118px;
+    border: 3px aqua solid;
+}
+#subtitulo{
+    color: white;
+    font-size: 16px;
+    height: 54px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 3px brown solid;
+}
+.CTA-Hero{
+    background-color:#558914;
+    border: #558914 solid;
+    color:white;
+    width: 234px;
+    height: 40px;
+    text-align: center;
+    line-height:10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+
+
+
+}
+
+#espacio-descubrir{
+    height: 40px;
+    padding: 0px;
+}
+#descubrir-mas{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
