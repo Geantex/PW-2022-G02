@@ -5,18 +5,15 @@ h1, h2, h3, h4, h5, h6, p, button{
     font-family: "Inter"}
 /*ELEMENTOS DIV*/
 .Hero{
-    border: red 7px solid;
     margin-top: 70px;
 }
 /*ELEMENTOS P*/
 /*ELEMENTOS SECTION*/
 /*ELEMENTOS ID*/
 #div-CTA{
-    border: orange 7px solid;
     margin-top: 20px;
 }
 #espacio-descubrir{
-    border: yellow 7px solid;
     margin-top: 391px;
 }
 
@@ -39,7 +36,7 @@ h1, h2, h3, h4, h5, h6, p, button{
 #pag-principal{
     height:820px;
     width: 414px;
-    background-image:url("../img/backgroundHero.jpg");
+    background-image:url("../img/backgroundHero2.jpeg");
     background-position: 40%;
     background-size: 1470px;
     text-align: center;
@@ -48,9 +45,7 @@ h1, h2, h3, h4, h5, h6, p, button{
     color: white;
     font-size: 40px;
     height: 102px;
-    margin: 0 auto;
-    margin-top: 118px;
-    border: 3px aqua solid;
+    margin: 118px auto 0;
 }
 #subtitulo{
     color: white;
@@ -58,11 +53,10 @@ h1, h2, h3, h4, h5, h6, p, button{
     height: 54px;
     margin: 0 auto;
     margin-top: 20px;
-    border: 3px brown solid;
 }
 .CTA-Hero{
     background-color:#558914;
-    border: #558914 solid;
+    border: #71b51a solid;
     color:white;
     width: 234px;
     height: 40px;
