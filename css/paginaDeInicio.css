@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+/* ESTA ES LA HOJA DE ESTILO DE LA PÁGINA DE INICIO DE SESIÓN */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Inter;
+    background-color: #ededed;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex: 1 1 auto;
+
+
+}
+
+.in-flex {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    padding: 25px;
+
+    margin-bottom: 10px;
+}
+
+.casita {
+    margin-top: 10px;
+    margin-right: 5px;
+    fill: #558914;
+}
+
+
+.cuestionario{
+
+
+    justify-content: center;
+    text-align: left;
+}
+.labels{
+    margin-left: 15px;
+    margin-bottom: 1rem;
+}
+
+
+h1{
+    font-weight: lighter;
+    font-size: 10px;
+
+}
+
+/*Esto afecta al logo para que quede como el diseño*/
+.logo {
+
+}
+
+/*Esto es para el texto que pone "Inicia sesión" en grande*/
+.textoinicio{
+    font-size: 300%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-style: normal;
+}
+
+/*Esto es para el texto de encima de las cajas de usuario y contraseña, siendo este texto "Usuario" y "Contraseña"*/
+
+
+/*Esto afecta al div que contiene todos los elementos del login (los labels, los inputs,
+  los botones y el "¿has olvidado la contraseña?")*/
+in-flex div{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    padding: 10px;
+}
+
+.botonInicioSesion {
+    border-color: #273f09 ;
+    color: white;
+    background-color: #558914;
+}
+
+
+button {
+    text-align: center;
+    text-decoration: none;
+    margin: 0.6rem;
+    width: 85%;
+    height: 2rem;
+    border: #273f09 solid 2px;
+    border-radius: 5px;
+    background-color: #E1C7DD;
+    color: #558914;
+    font: 400 1rem Inter;
+}
+.UsuarioContraseña{
+    text-align: initial;
+    text-decoration: none;
+    padding-left: 5px;
+    margin: 0.6rem;
+    margin-top: 3px;
+    width: 85%;
+    height: 2rem;
+    border: #152105 solid 2px;
+    border-radius: 5px;
+    background-color: #e9f9d6;
+    color: #558914;
+    font: 400 1rem Inter;
+}
+
+
+
+.olvidarContraseña {
+    text-align: center;
+    margin-left: 35px;
+    width: 85%;
+    height: 2rem;
+    color: #152105;
+    font: 400 1rem Inter;
+}
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(0, 4rem);
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    z-index: 98;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+}
+
+.contenedorMenu {
+    margin-right: 1rem;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.IconoHeader {
+    padding: 10px;
+    height: 60%;
+
+}
+
+.logoGti {
+    padding: 5px;
+    height: 100%;
+
+}

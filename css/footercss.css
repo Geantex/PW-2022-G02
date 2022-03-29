@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
+h1, h2, h3, h4, h5, h6, p {
+font-family: "Inter"}
+.logo{
+    width:55%;
+    height:55%;
+
+}
+.piedepagina{
+    background: #D7D7D7;
+    border: red solid 3px;
+
+}
+.circulocorreo {
+    height: 35px;
+    width: 35px;
+    background: #558914;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+}
+.circulodirec{
+    height:35px;
+    width:35px;
+    background:#558914;
+    border-radius:50%;
+    display:inline-block;
+    position: absolute;
+    left: 70px;
+}
+
+.correo{
+    transform: translate(41%, 58%);
+}
+.direccion{
+    transform:translate(53%, 30%);
+}
+.cuadradocorreo {
+    width: 168px;
+    height: 21px;
+    padding:40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+    border-radius:50px;
+    text-align: center;
+    font-size:10px;
+    font-family: inter;
+    color: #333333;
+    position: relative;
+    left: 130px;
+    bottom: -5px;
+}
+.cuadradodireccion {
+    width: 168px;
+    height: 21px;
+    padding:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+    border-radius:50px;
+    text-align: center;
+    font-size:10px;
+    font-family: inter;
+    color: #333333;
+    position: relative;
+    left: 85px;
+    bottom: -5px;
+}
+.privacidad{
+    font-size: 10px;
+    font-family: Inter;
+    position: relative;
+    left: 60px;
+    float:left;
+}
+.cookies{
+    font-size: 10px;
+    font-family: Inter;
+    position: relative;
+    right: 60px;
+    float: right;
+}
