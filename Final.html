@@ -9,6 +9,7 @@
     <link href="css/footer.css" rel="stylesheet" type="text/css">
     <link href="css/landing.css" rel="stylesheet" type="text/css">
     <link href="css/producto.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
 
     <link href="landing.html">
 </head>
@@ -19,6 +20,8 @@
     <div class="contenedorMenu">
         <!--TODO: Cuando hagas click en el menu desplegable que cambie las 3 lineas por una cruz/X-->
         <a href="javascript:void(0);" class="IconoHeader" onclick="myFunction()"><img class="IconoHeader" src="images/lineas.svg"></a>
+        <a href="paginaDeInicio.html" class="IconoHeader" id="headerUsuario"><img src="images/usuario.svg"></a>
+
     </div>
 </header>
 <!--Este es el menú desplegable, cuando hacemos click en el icono del header-->
@@ -26,18 +29,10 @@
 
     <div id="myLinks">
         <div><a class="otrasPaginas" href="">Nuestros productos</a></div>
-        <div><a class="otrasPaginas" href="">Contacta</a></div>
-        <div><a class="otrasPaginas" href="">Escucha a nuestros clientes</a></div>
-        <div><a class="otrasPaginas" href="">¿Quiénes somos?</a></div>
+        <div><a id="contactaLink" class="otrasPaginas" href="">Contacta</a></div>
+        <div><a id="escuchaLink" class="otrasPaginas" href="">Escucha a nuestros clientes</a></div>
+        <div><a id="quienesSomosLink" class="otrasPaginas" href="">¿Quiénes somos?</a></div>
         <div class="contenedorBotones">
-            <div>
-                <!--                TODO: Cambiar aquí para hacer que te lleve a la página principal EL BOTON, ahora esta hecho terrible porque no me acuerdo-->
-                <a href="paginaDeInicio.html" ><button id="headerIniciar">INICIAR SESIÓN</button></a>
-            </div>
-
-            <div>
-                <button id="headerPresupuesto" class="botonSolicitarPresupuesto">SOLICITAR PRESUPUESTO</button>
-            </div>
         </div>
 
     </div>
