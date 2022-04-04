@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html,body{
-    height: 896px;
-    width: 414px;
-    margin:0px;
+    margin:0;
 
 }
 /*ELEMENTOS H*/
@@ -44,11 +42,8 @@ h1, h2, h3, h4, h5, h6, p, button{
 /*css copiado*/
 
 #pag-principal{
-    height:820px;
-    width: 414px;
     background-image:url("../images/backgroundHero2.jpeg");
     background-position: 40%;
-    background-size: 1470px;
     text-align: center;
 }
 #tituloPrincipal{
@@ -80,6 +75,7 @@ h1, h2, h3, h4, h5, h6, p, button{
 }
 
 #espacio-descubrir{
+    transform: translate(0%, -75%);
     height: 40px;
     padding: 0px;
 }
@@ -88,4 +84,3 @@ h1, h2, h3, h4, h5, h6, p, button{
     padding: 0px;
     margin: 0px;
     transform: translate(0%, 25%);
-}

@@ -52,7 +52,7 @@
 
 
 <!--Fin de header y barra de navegación-->
-
+<body>
 <!--principial-->
 <div class="Hero" id="pag-principal">
     <div id="contenido">
@@ -68,7 +68,7 @@
         <div id="espacio-descubrir">
             <p id="descubrir-mas"><b>DESCUBRE MÁS</b></p>
             <!--TODO: Añadir aquí una flecha, con el código de subir y bajar-->
-            <img src="images/flecha.svg" alt="flecha para bajar" clase="flechaDescubre">
+            <img src="images/flecha.svg" alt="flecha para bajar" class="flechaDescubre">
         </div>
     </div>
 </div>
@@ -84,40 +84,47 @@
     </div>
 </section>-->
 
+<!--Titulo de "producto" y su sección-->
+<h3 id="productoTitulo">PRODUCTOS</h3>
+<h4 id="productoSubtitulo">¿Qué sensores y funcionalidades tiene?</h4>
 
+<section id="producto">
+    <!--Apartado ambiente-->
+    <section class="ambiente">
+        <div align="center"><img src="images/ambiente.svg" class="imgamb"></div>
+        <div align="center" class="textoambiente">Ambiente</div>
+        <div align="center" class="desamb" >Iluminación y temperatura</div>
+    </section>
 
-<body>
-<!--Apartado ambiente-->
-<section class="ambiente">
-    <div align="center"><img src="images/ambiente.svg" class="imgamb"></div>
-    <div align="center" class="textoambiente">Ambiente</div>
-    <div align="center" class="desamb" >Iluminación y temperatura</div>
+    <!--Apartado riego-->
+    <section class="riego">
+        <br>
+        <div align="center"><img src="images/riego.svg" class="imgrie"></div>
+        <div align="center" class="textoriego">Riego</div>
+        <div align="center" class="desrie">Salinidad y humedad</div>
+    </section>
+
+    <!--Apartado localización-->
+    <section class="localizacion">
+        <div align="center"><img src="images/localizacion.svg" class="imgloc"></div>
+        <div align="center" class="textolocalizacion">Localización</div>
+        <div align="center" class="desloc">Permite saber la localización de las sondas en tiempo real</div>
+    </section>
+
+    <!--Apartado seguridad-->
+    <section class="seguridad">
+        <div align="center"><img src="images/seguridad.svg" class="imgseg"></div>
+        <div align="center" class="textoseguridad">Seguridad</div>
+<!--        GABRIEL: Isabel, he añadido la palabra "antirrobo"-->
+        <div align="center" class="desseg">Antirrobo y control <br> de las sondas</div>
+    </section>
+
+    <br><br>
+
 </section>
 
-<!--Apartado riego-->
-<section class="riego">
-    <br>
-    <div align="center"><img src="images/riego.svg" class="imgrie"></div>
-    <div align="center" class="textoriego">Riego</div>
-    <div align="center" class="desrie">Salinidad y humedad</div>
-</section>
-
-<!--Apartado localización-->
-<section class="localizacion">
-    <div align="center"><img src="images/localizacion.svg" class="imgloc"></div>
-    <div align="center" class="textolocalizacion">Localización</div>
-    <div align="center" class="desloc">Permite saber la localización de las sondas en tiempo real</div>
-</section>
-
-<!--Apartado seguridad-->
-<section class="seguridad">
-    <div align="center"><img src="images/seguridad.svg" class="imgseg"></div>
-    <div align="center" class="textoseguridad">Seguridad</div>
-    <div align="center" class="desseg">Control de las sondas</div>
-</section>
-
-<br><br>
 <!--Sección textos-->
+
 
     <div class="texto1"><span class="productividad">Aumenta la <br> productividad</span> <span class="servicio">con un </span><br> <span class="productividad">servicio</span> <span class="servicio">totalmente</span> <br> <span class="productividad">personalizado</span></div>
     <br><br><br><br><br>
@@ -165,50 +172,30 @@
 
 
 <footer class="piedepagina" role="contentinfo">
-
+<!--Logo de GTI-->
     <div align="center"> <img src="images/logoverde.png"  class="logo"></div>
 
-    <br>
-
-
+<!--       Support GTI e imagen de correo -->
     <div style="z-index: 100" id="circulocorreo" class="circulocorreo" >
         <img src="images/correoicono.svg" class="correo">
     </div>
-
-
-    <span class="cuadradocorreo" align>    support@gti.com    </span>
-
-
-
-
-
-
+    <span class="cuadradocorreo" align>support@gti.com</span>
     <br>
     <br>
-
-
-
-
-
-
-
-
     <div style="z-index: 100" id="circulodirec" class="circulodirec" >
         <img src="images/direccionicono.svg" class="direccion">
     </div>
 
 
-    <span class="cuadradodireccion" align>    Carrer del Paranimf, 1, 46730 Gandia, Valencia    </span>
+    <span class="cuadradodireccion"> &nbsp;Carrer del Paranimf, 1, 46730 Gandia, Valencia    </span>
 
 
-    <br>
-    <br>
     <br>
     <br>
     <div class="privacidad">Política de privacidad</div><div class="cookies">Política de cookies </div>
     <br>
     <br>
-
+    <br>
 
 </footer>
 

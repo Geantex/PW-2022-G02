@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
 h1, h2, h3, h4, h5, h6, p {
-    font-famil:Inter}
+    font-family:Inter}
+
+/*Título de productos*/
+#productoTitulo{
+    font-weight: 650;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 0;
+    color: #184001;
+}
+#productoSubtitulo{
+    margin-top: 3px;
+    font-size: 90%;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*La caja entera de producto*/
+#producto{
+    margin-top: 30px;
+    /*Si descomentamos la línea de abajo, comprobaremos porqué los márgenes no funcionan con la sección de productos*/
+    /*border: 1px solid black;*/
+}
 
 /*AMBIENTE*/
 .ambiente{
@@ -152,38 +174,38 @@ h1, h2, h3, h4, h5, h6, p {
 
 .productividad{
     color: #333333;
+    /*color: #073814;*/ /*Este color es verde muy oscuro, puede pegar bien, o podemos poner otro verde oscuro o muy gris*/
     font-weight: bold;
 }
 .servicio{
     color: #797979;
     font-weight: bold;
 }
-.personalizado{
-    color: #333333;
-    font-weight: bold;
+/*.personalizado{*/
+/*    color: #333333;*/
+/*    font-weight: bold;*/
 
-}
-.seguimiento{
-    color: #333333;
-    font-weight: bold;
-}
-.manera{
-    color: #797979;
-    font-weight: bold;
-}
-.sencillo{
-    color: #333333;
-    font-weight: bold;
-}
+/*}*/
+/*.seguimiento{*/
+/*    color: #333333;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.manera{*/
+/*    color: #797979;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.sencillo{*/
+/*    color: #333333;*/
+/*    font-weight: bold;*/
+/*}*/
 .texto1{
     font-family: Inter;
     font-size: 28px;
-
+    transform: translate(0%, 5%); /*Con esto podemos desplazar el texto1 hacia abajo*/
     font-weight: bold;
     bottom: 100px;
     margin-left: 10px;
     text-align: left;
-
 }
 
 .texto2{

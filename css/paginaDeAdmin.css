@@ -1,0 +1,50 @@
+/*TODO: Hay que arreglar el header, se hace más alto o más bajito cuando cambiamos el tamaño de la página, solo tiene que cambiar su anchura*/
+body{
+    font-family: Inter  ;
+}
+
+#contenedorUsuario {
+    margin-top: 80px;
+    /* We first create a flex layout context */
+    display: flex;
+
+    /* Then we define the flow direction
+       and if we allow the items to wrap
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+
+    /* Then we define how is distributed the remaining space */
+    justify-content: center;
+    align-items: center;
+}
+
+#fotoUsuario{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+#saludo{
+    font-size: 150%;
+    font-weight: 600;
+}
+
+#holaUsuario{
+    margin-left: 10px;
+}
+
+#contenedorCuadrados{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrado{
+    height: 160px;
+    width: 150px;
+    border: 1px solid black;
+}

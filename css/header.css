@@ -4,6 +4,10 @@
 /*                           HEADER                          */
 /*-----------------------------------------------------------*/
 
+/*Danipa es una bestia del código y nos ha solucionado los problemas del header, que los detallo aquí para futuras ocasiones
+ 1. Comprobar que está metido dentro de body, y comprobar también que no tenemos un límite de altura en body
+ 2. La barra de navegación tiene, en la clase "topnav", la propiedad top; ajustarla según la página*/
+
 header {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -12,7 +16,7 @@ header {
     top: 0;
     background-color: #f1f1f1;
     z-index: 98;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid gray;
 }
 
 .contenedorMenu {
@@ -55,6 +59,8 @@ header {
     overflow: hidden;
     background-color: #ddd;
     position: sticky;
+    top: 64px; /*Esto es lo que hace que se quede sticky, junto a la propiedad sticky, por supuesto*/
+    z-index: 50;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
